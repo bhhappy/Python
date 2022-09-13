@@ -22,8 +22,7 @@ def numToList(num): #Converts the number to a list
     temp_list.reverse()
     return temp_list
     
-#secretNumber = secretNumber() #random number
-secretNumber = 367
+secretNumber = secretNumber() #random number
 secretNumber_list = numToList(secretNumber)
 print("""I am thinking of a 3-digit number with no repeated digits.Try to guess what it is.
 Here are some clues:
